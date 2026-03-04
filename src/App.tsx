@@ -22,6 +22,7 @@ function HomePage() {
     replaceImage,
     packAndDownload,
     packImagesAndDownload,
+    reset,
   } = useSplashStore();
 
   const handleFileSelect = (file: File) => {
@@ -55,7 +56,7 @@ function HomePage() {
   return (
     <Box>
       {error && (
-        <Alert severity="error" sx={{ mb: 3 }} onClose={() => {}}>
+        <Alert severity="error" sx={{ mb: 3 }} onClose={reset}>
           {error}
         </Alert>
       )}
