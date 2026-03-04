@@ -1,0 +1,65 @@
+{
+  "layout": {
+    "title": "FolkSplash",
+    "subtitle": "Visual Tool",
+    "home": "Home",
+    "about": "About",
+    "github": "GitHub",
+    "author": "Mstzuzaka Yuki",
+    "langTooltip": "Switch language",
+    "langTooltipCurrent": "Current language: {{lang}}"
+  },
+  "about": {
+    "title": "FolkSplash",
+    "subtitle": "OPPO/Realme/OnePlus splash.img Visual Tool",
+    "author": "Author",
+    "githubPage": "GitHub Project Homepage",
+    "features": "Features",
+    "feature1": "Extract splash.img image files",
+    "feature2": "View and replace boot animation images",
+    "feature3": "Support PNG/JPG/BMP format images",
+    "feature4": "Auto-adapt resolution",
+    "feature5": "Pack and download new image",
+    "feature6": "Support OPPO/Realme/OnePlus devices"
+  },
+  "upload": {
+    "dragDrop": "Drag & drop splash.img here or click to upload",
+    "support": "Support OPPO/Realme/OnePlus splash image files"
+  },
+  "pack": {
+    "packing": "Packing...",
+    "packAndDownload": "Pack and Download"
+  },
+  "gallery": {
+    "imageList": "Image List",
+    "images": "images"
+  },
+  "card": {
+    "close": "Close",
+    "replace": "Replace Image",
+    "selectNew": "Select new image (PNG/JPG/BMP)",
+    "resolutionSettings": "Resolution Settings",
+    "directUpload": "Direct Upload",
+    "directUploadDesc": "Upload original image without any conversion",
+    "followOriginal": "Follow original resolution",
+    "autoAdapt": "Auto adapt",
+    "max": "max",
+    "noConversion": "No conversion",
+    "forceOriginal": "Force original size",
+    "custom": "Custom resolution",
+    "width": "Width",
+    "height": "Height",
+    "processing": "Processing...",
+    "cancel": "Cancel"
+  },
+  "infoBar": {
+    "resolution": "Resolution",
+    "imageCount": "Image Count"
+  },
+  "store": {
+    "loadFailed": "Failed to load",
+    "noSplashData": "No splash data loaded",
+    "imageLoadFailed": "Failed to load image",
+    "packFailed": "Failed to pack"
+  }
+}

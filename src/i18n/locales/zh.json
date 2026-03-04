@@ -1,0 +1,65 @@
+{
+  "layout": {
+    "title": "FolkSplash",
+    "subtitle": "可视化工具",
+    "home": "首页",
+    "about": "作者信息",
+    "github": "GitHub",
+    "author": "Mstzuzaka Yuki",
+    "langTooltip": "切换语言",
+    "langTooltipCurrent": "当前语言: {{lang}}"
+  },
+  "about": {
+    "title": "FolkSplash",
+    "subtitle": "OPPO/Realme/OnePlus splash.img 可视化工具",
+    "author": "作者",
+    "githubPage": "GitHub 项目主页",
+    "features": "功能特性",
+    "feature1": "解包 splash.img 镜像文件",
+    "feature2": "查看和替换开机动画图片",
+    "feature3": "支持 PNG/JPG/BMP 格式图片",
+    "feature4": "自动适配分辨率",
+    "feature5": "打包并下载新镜像",
+    "feature6": "支持 OPPO/Realme/OnePlus 设备"
+  },
+  "upload": {
+    "dragDrop": "拖拽 splash.img 到此处或点击上传",
+    "support": "支持 OPPO/Realme/OnePlus splash 镜像文件"
+  },
+  "pack": {
+    "packing": "打包中...",
+    "packAndDownload": "打包并下载"
+  },
+  "gallery": {
+    "imageList": "图片列表",
+    "images": "张"
+  },
+  "card": {
+    "close": "关闭",
+    "replace": "替换图片",
+    "selectNew": "选择新图片 (PNG/JPG/BMP)",
+    "resolutionSettings": "分辨率设置",
+    "directUpload": "直接上传",
+    "directUploadDesc": "直接上传原图，不进行任何转换",
+    "followOriginal": "跟随原图分辨率",
+    "autoAdapt": "自动适配",
+    "max": "最大",
+    "noConversion": "不转换",
+    "forceOriginal": "强制使用原图尺寸",
+    "custom": "自定义分辨率",
+    "width": "宽度",
+    "height": "高度",
+    "processing": "处理中...",
+    "cancel": "取消"
+  },
+  "infoBar": {
+    "resolution": "分辨率",
+    "imageCount": "图片数量"
+  },
+  "store": {
+    "loadFailed": "加载失败",
+    "noSplashData": "没有加载的 splash 数据",
+    "imageLoadFailed": "图片加载失败",
+    "packFailed": "打包失败"
+  }
+}
